@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Random Files, utilities not necessary for the final project, etc.
+commands.md
+change_directory.sh
+
 # C extensions
 *.so
 
