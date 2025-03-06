@@ -6,6 +6,7 @@ __pycache__/
 # Random Files, utilities not necessary for the final project, etc.
 commands.md
 change_directory.sh
+api_key
 
 # C extensions
 *.so

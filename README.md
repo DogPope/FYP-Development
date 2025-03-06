@@ -11,6 +11,7 @@ I don't have the patience to keep editing files for setting which directory does
 Also, pyenv.cfg needs to be edited with the correct path. Use the change_directory.sh script to do this between machines.
 
 ## To-Do List
+- [ ] Push/Pull whatever changes you have on desktop, they're effectively useless until Easter. Meaning I should be using the USB? I'm getting confused?
 - [ ] Add correct Github Link to Document, it is currently the old one.
 - [ ] Apply Graph algorithms to 3d array, plot, etc.
 - [ ] Design GUI for displaying data.
