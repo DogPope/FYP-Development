@@ -9,6 +9,9 @@ cache/
 commands.md
 change_directory.sh
 api_key
+test.txt
+test.py
+custom_data_set.csv
 
 # C extensions
 *.so
