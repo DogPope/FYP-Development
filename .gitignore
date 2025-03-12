@@ -6,6 +6,8 @@ cache/
 *$py.class
 
 # Random Files, utilities not necessary for the final project, etc.
+# Directories, such as Visual Studio Code directory etc.
+.vs/
 commands.md
 change_directory.sh
 api_key

@@ -48,6 +48,8 @@ if point[0] > 180 or point[0] < -180:
 if point[0] > 90 or point[1] < -90:
     print("Latitude must be between -90 and 90. Returning.")
     exit()
+
+    
 def generate_box(point):
     from haversine import inverse_haversine, Unit, Direction
     from math import sqrt
