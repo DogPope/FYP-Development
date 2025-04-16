@@ -15,6 +15,7 @@ test.txt
 ignore.md
 test.py
 custom_data_set.csv
+secrets.md
 
 # C extensions
 *.so
@@ -38,6 +39,10 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+cache/
+
+# NPM Files
+node_modules/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

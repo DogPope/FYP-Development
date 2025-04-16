@@ -100,6 +100,9 @@ def generate_data(bounding_box):
                 current_lat = min_latitude + i * lat_diff
                 current_lng = min_longitude + j * long_diff
                 lat, lng, elev = return_elevation(current_lat, current_lng)
+                lat = round(lat, 7)
+                lng = round(lng, 7)
+                elev = round(elev, 2)
                 elevation_data.append((lat, lng, elev))
                 csvwriter.writerow([lat, lng, elev])
                 print(f"Added point: Lat={lat}, Lng={lng}, Elevation={elev}m")
