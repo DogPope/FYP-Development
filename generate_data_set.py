@@ -65,7 +65,6 @@ bounding_box = generate_box(point)
 
 # Generates the CSV file based on the bounding box given.
 def generate_data(bounding_box):
-    import json
     import requests
     import os
     max_latitude = bounding_box[0][0] # NORTHWEST
